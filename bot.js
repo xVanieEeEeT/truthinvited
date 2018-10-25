@@ -103,7 +103,7 @@ client.on("ready", () => {
 });
  
  client.on("guildMemberAdd", (member) => {
-    let channel = member.guild.channels.find(c => c.name === 'truth');
+    let channel = member.guild.channels.find(c => c.name === 'winter');
     if (!channel) {
         console.log("!the channel id it's not correct");
         return;
@@ -132,7 +132,7 @@ client.on("ready", () => {
 
 
 client.on("guildMemberAdd", (member) => {
-    let channel = member.guild.channels.find(c => c.name === 'truth');
+    let channel = member.guild.channels.find(c => c.name === 'winter');
     if (!channel) {
         console.log("!the channel id it's not correct");
         return;
